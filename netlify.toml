@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+[context.deploy-preview]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
